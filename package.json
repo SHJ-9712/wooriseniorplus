@@ -1,0 +1,23 @@
+{
+  "name": "wooribank",
+  "version": "1.0.0",
+  "description": "우리은행 시니어플러스",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SHJ-9712/wooriseniorplus.git"
+  },
+  "author": "Shin Hyukjun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SHJ-9712/wooriseniorplus/issues"
+  },
+  "homepage": "https://github.com/SHJ-9712/wooriseniorplus#readme",
+  "dependencies": {
+    "jquery": "^1.12.4",
+    "slick-carousel": "^1.8.1"
+  }
+}
