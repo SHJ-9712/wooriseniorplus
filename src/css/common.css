@@ -10,3 +10,7 @@
 .container h4 > span {color: #288bcc;}
 .container .btn-more {padding: 0 22px; border: 1px solid #ccc; border-radius: 5px; position: absolute; right: 0; top: 0;}
 .container .btn-more > span {display: inline-block; padding-right: 15px; line-height: 38px; background: url(../images/sprites.png) no-repeat 0 0;}
+
+/* 스킵네비게이션 */
+#skipNavi a {display: block; font-size: 0; z-index: 9999;}
+#skipNavi a:active, #skipNavi a:focus {width: 100%; height: auto; padding: 5px 0; font-size: 14px; text-align: center; color: #fff; background: #000;}
