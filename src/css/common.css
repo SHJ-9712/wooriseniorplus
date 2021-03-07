@@ -16,7 +16,7 @@
 #skipNavi a:active, #skipNavi a:focus {width: 100%; height: auto; padding: 5px 0; font-size: 14px; text-align: center; color: #fff; background: #000;}
 
 /* header */
-header {width: 100%; position: fixed; left: 0; top: 0; z-index: 999;}
+header {width: 100%; letter-spacing: -1px; position: fixed; left: 0; top: 0; z-index: 999;}
 header .top {height: 100px; border-bottom: 1px solid #ededed; box-sizing: border-box;}
 header .top h1 {padding-top: 33px; font-size: 0; float: left;}
 header .top h1 a {width: 140px; height: 34px; display: inline-block; background: url(../images/sprites.png) no-repeat 0 0;}
@@ -29,11 +29,23 @@ header .top .user-control .sizing .zoomBtn {width: 36px; height: 36px; margin-ri
 header .top .user-control .sizing .zoom-in {background-position-y: -414px;}
 header .top .user-control .sizing .zoom-out {background-position-y: -451px;}
 header .top .user-control .sizing .zoom-default {width: 90px; line-height: 36px; color: #288bcc; font-size: 15px; font-weight: 700; vertical-align: middle; border-radius: 30px;}
-header .top .user-control .sns {display: inline-block; font-size: 0; vertical-align: middle; position: relative;}
+header .top .user-control .sns {padding-left: 40px; display: inline-block; font-size: 0; vertical-align: middle; position: relative;}
 header .top .user-control .sns:before {content: ''; width: 1px; height: 30px; background-color: #e3e3e3; position: absolute; left: 20px; top: 50%; transform: translateY(-50%);}
-header .top .user-control .sns li {display: inline-block;}
-header .top .user-control .sns li:not(:first-child) {margin-left: 12px;}
-header .top .user-control .sns li a {width: 46px; height: 46px; background: url(../images/sprites.png) no-repeat 0 -70px;}
-header .top .user-control .sns li .sns-naver {background-position-x: -47px;}
-header .top .user-control .sns li .sns-youtube {background-position-x: -94px;}
-header .top .user-control .sns li .sns-instagram {background-position-x: -141px;}
+header .top .user-control .sns > li {display: inline-block;}
+header .top .user-control .sns > li:not(:first-child) {margin-left: 12px;}
+header .top .user-control .sns > li a {width: 46px; height: 46px; background: url(../images/sprites.png) no-repeat 0 -70px;}
+header .top .user-control .sns > li .sns-naver {background-position-x: -47px;}
+header .top .user-control .sns > li .sns-youtube {background-position-x: -94px;}
+header .top .user-control .sns > li .sns-instagram {background-position-x: -141px;}
+header .gnb {line-height: 60px; position: relative;}
+header .gnb:before {content: ''; width: 100%; height: 1px; background-color: #ededed; position: absolute; left: 0; bottom: 0;}
+header .gnb .menu {float: left;}
+header .gnb .menu > li {float: left;}
+header .gnb .menu > li a {padding: 0 40px; color: #333; font-size: 22px; font-weight: 800; position: relative;}
+header .gnb .menu > li a:hover {color: #288bcc;}
+header .gnb .menu > li:not(:first-child) a:before {content: ''; width: 1px; height: 12px; background-color: #e3e3e3; position: absolute; left: 0; top: 50%; transform: translateY(-50%);}
+header .gnb .member {float: right;}
+header .gnb .member > li {float: left;}
+header .gnb .member > li:nth-child(2) {margin-left: 24px; position: relative;}
+header .gnb .member > li:nth-child(2):before {content: ''; width: 1px; height: 10px; background-color: #e3e3e3; position: absolute; left: -12px; top: 50%; transform: translateY(-50%);}
+header .gnb .member > li .search-btn {width: 26px; height: 27px; margin-left: 29px; padding: 0; vertical-align: middle; background: url(../images/sprites.png) no-repeat -153px -124px;}
