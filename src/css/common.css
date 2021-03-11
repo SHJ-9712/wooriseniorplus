@@ -37,15 +37,21 @@ header .top .user-control .sns > li a {width: 46px; height: 46px; background: ur
 header .top .user-control .sns > li .sns-naver {background-position-x: -47px;}
 header .top .user-control .sns > li .sns-youtube {background-position-x: -94px;}
 header .top .user-control .sns > li .sns-instagram {background-position-x: -141px;}
-header .gnb {line-height: 60px; position: relative;}
-header .gnb:before {content: ''; width: 100%; height: 1px; background-color: #ededed; position: absolute; left: 0; bottom: 0;}
+header .gnb {background-color: #fff; position: relative;}
+header .gnb:after {content: ''; width: 100%; height: 100%; background-color: rgba(0, 0, 0, .5); position: fixed; left: 0; top: 160px; transition: all 0.3s; z-index: -1; visibility: hidden; opacity: 0;}
+header .gnb.layout:after {visibility: visible; opacity: 1;}
 header .gnb .menu {float: left;}
+header .gnb .menu:after {content: ''; width: 100%; height: 1px; background-color: #ededed; position: absolute; left: 0; top: 59px;}
 header .gnb .menu > li {float: left;}
-header .gnb .menu > li a {padding: 0 40px; color: #333; font-size: 22px; font-weight: 800; position: relative;}
-header .gnb .menu > li a:hover {color: #288bcc;}
-header .gnb .menu > li:not(:first-child) a:before {content: ''; width: 1px; height: 12px; background-color: #e3e3e3; position: absolute; left: 0; top: 50%; transform: translateY(-50%);}
+header .gnb .menu > li > a {padding: 0 40px; color: #333; line-height: 60px; font-size: 22px; font-weight: 800; position: relative;}
+header .gnb .menu > li > a:hover {color: #288bcc;}
+header .gnb .menu > li:not(:first-child) > a:before {content: ''; width: 1px; height: 12px; background-color: #e3e3e3; position: absolute; left: 0; top: 50%; transform: translateY(-50%);}
+header .gnb .menu > li .lnb {margin: 40px 0 40px 40px; display: none;}
+header .gnb .menu > li .lnb > li:not(:first-child) {margin-top: 20px;}
+header .gnb .menu > li .lnb > li:hover {color: #288bcc; text-decoration: underline;}
+header .gnb .menu > li .lnb > li > a {font-size: 15px;}
 header .gnb .member {float: right;}
-header .gnb .member > li {float: left;}
+header .gnb .member > li {line-height: 60px; float: left;}
 header .gnb .member > li:nth-child(2) {margin-left: 24px; position: relative;}
 header .gnb .member > li:nth-child(2):before {content: ''; width: 1px; height: 10px; background-color: #e3e3e3; position: absolute; left: -12px; top: 50%; transform: translateY(-50%);}
 header .gnb .member > li .search-btn {width: 26px; height: 27px; margin-left: 29px; padding: 0; vertical-align: middle; background: url(../images/sprites.png) no-repeat -153px -124px;}
