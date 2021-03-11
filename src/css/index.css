@@ -1,0 +1,14 @@
+@charset "utf-8";
+.main {margin-top: 160px;}
+/* main slider */
+.main-slider {height: 520px;}
+.main-slider .slide-box a img {height: 100%;}
+.main-slider .slick-arrow,
+.main-slider .slick-dots > li button[type="button"] {text-indent: -9999px; z-index: 100;}
+.main-slider .slick-arrow {width: 14px; height: 24px; background: url(../images/sprites.png) no-repeat; background-position-y: -117px; position: absolute; bottom: 24px;}
+.main-slider .slick-prev {margin-left: -74px; background-position-x: -242px; left: 50%;}
+.main-slider .slick-next {margin-right: -74px; background-position-x: -257px; right: 50%;}
+.main-slider .slick-dots {width: auto; height: 12px; font-size: 0; position: absolute; left: 50%; bottom: 30px; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%);}
+.main-slider .slick-dots li {margin: 0 5px; display: inline-block; background-color: #d9d9d9; border-radius: 50%;}
+.main-slider .slick-dots li button[type="button"] {width: 12px; height: 12px; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; transition: all 0.3s;}
+.main-slider .slick-dots li.slick-active button[type="button"] {width: 30px; background-color: #288bcc; border-radius: 12px;}

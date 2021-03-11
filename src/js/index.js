@@ -1,11 +1,17 @@
-const $gnb = $('.gnb');
-const $mainMenu = $('.gnb .menu');
-const $subMenu = $('.gnb .menu > li > .lnb');
-$mainMenu.mouseenter(function(){
-    $subMenu.stop().slideDown(300);
-    $gnb.addClass('layout');
-});
-$mainMenu.mouseleave(function(){
-    $subMenu.stop().slideUp(300);
-    $gnb.removeClass('layout');
+// slick 메인 슬라이더
+$('.main-slider').slick({
+    slide: '.slide-box',
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    fade: true,
+    cssEase: 'linear',
+    arrows: true,
+    dots: true,
+    autoplay: false,
+    autoplaySpeed: 1000,
+    pauseOnHover: false,
+    pauseOnFocus: false,
+    vertical: false,
+    draggable: true,
 });
