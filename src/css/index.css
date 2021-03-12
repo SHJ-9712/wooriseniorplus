@@ -12,3 +12,20 @@
 .main-slider .slick-dots li {margin: 0 5px; display: inline-block; background-color: #d9d9d9; border-radius: 50%;}
 .main-slider .slick-dots li button[type="button"] {width: 12px; height: 12px; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; transition: all 0.3s;}
 .main-slider .slick-dots li.slick-active button[type="button"] {width: 30px; background-color: #288bcc; border-radius: 12px;}
+
+/* 금융서비스 */
+.section_1 {padding: 100px 0;}
+.section_1 .banner {color: #fff;}
+.section_1 .banner a {width: 580px; height: 280px;}
+.section_1 .banner a img {width: 290px; height: 280px;}
+.section_1 .banner a > .info {width: 290px; height: 280px; padding-top: 37px; text-align: center; box-sizing: border-box;}
+.section_1 .banner a .info h5 {margin: 0; font-size: 22px; font-weight: 600; line-height: 32px;}
+.section_1 .banner a .info p {font-size: 14px; line-height: 24px;}
+.section_1 .banner a .info span {padding: 0 45px; display: inline-block; line-height: 40px; font-size: 13px; background-color: #064ca2; border-radius: 6px;}
+.section_1 .banner .left {float: left;}
+.section_1 .banner .left img {float: left;}
+.section_1 .banner .left .info {float: right; background: -webkit-linear-gradient(to right, #3194d5, #4fb2f6); background: -moz-linear-gradient(to right, #3194d5, #4fb2f6); background: -o-linear-gradient(to right, #3194d5, #4fb2f6); background: linear-gradient(to right, #3194d5, #4fb2f6);}
+.section_1 .banner .right {float: right;}
+.section_1 .banner .right img {float: right;}
+.section_1 .banner .right .info {float: left; background: -webkit-linear-gradient(to right, #344ca4, #3c61b2); background: -moz-linear-gradient(to right, #344ca4, #3c61b2); background: -o-linear-gradient(to right, #344ca4, #3c61b2); background: linear-gradient(to right, #344ca4, #3c61b2);}
+.section_1 .banner .right .info span {background-color: #102b86;}
