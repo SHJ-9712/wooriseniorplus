@@ -1,8 +1,8 @@
 @charset "utf-8";
 .main {margin-top: 160px;}
 /* main slider */
-.main-slider {height: 520px;}
-.main-slider .slide-box a img {height: 100%;}
+.main-slider {width: 100%; height: 100%;}
+.main-slider .slide-box a img {width: 100%; height: 520px;}
 .main-slider .slick-arrow,
 .main-slider .slick-dots > li button[type="button"] {text-indent: -9999px; z-index: 100;}
 .main-slider .slick-arrow {width: 14px; height: 24px; background: url(../images/sprites.png) no-repeat; background-position-y: -117px; position: absolute; bottom: 24px;}
@@ -29,3 +29,22 @@
 .section_1 .banner .right img {float: right;}
 .section_1 .banner .right .info {float: left; background: -webkit-linear-gradient(to right, #344ca4, #3c61b2); background: -moz-linear-gradient(to right, #344ca4, #3c61b2); background: -o-linear-gradient(to right, #344ca4, #3c61b2); background: linear-gradient(to right, #344ca4, #3c61b2);}
 .section_1 .banner .right .info span {background-color: #102b86;}
+.section_1 .board {padding-top: 40px;}
+.section_1 .board > div {width: 580px; position: relative;}
+.section_1 .board .event {float: left;}
+.section_1 .board .event a img {width: 100%; height: auto;}
+.section_1 .board .recommend {float: right;}
+.section_1 .board .recommend .product-list {padding-top: 20px; border-top: 2px solid #333; position: relative;}
+.section_1 .board .recommend .product-list:after {content: ''; width: 1px; height: 30px; background-color: #ddd; position: absolute; left: 50%; bottom: -50px; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%);}
+.section_1 .board .recommend .product-list .product-box .thumb {width: 245px; font-size: 0; float: left; position: relative;}
+.section_1 .board .recommend .product-list .product-box .thumb img {width: 100%;}
+.section_1 .board .recommend .product-list .product-box .thumb .btn-wrap {width: 100%; background-color: rgba(255, 255, 255, .8); position: absolute; left: 0; bottom: 0;}
+.section_1 .board .recommend .product-list .product-box .thumb .btn-wrap a {width: 50%; line-height: 45px; font-size: 14px; text-align: center; color: #666;}
+.section_1 .board .recommend .product-list .product-box .thumb .btn-wrap .btn-like {float: left; border-right: 1px solid rgba(0, 0, 0, .2); box-sizing: border-box;}
+.section_1 .board .recommend .product-list .product-box .thumb .btn-wrap .btn-apply {float: right;}
+.section_1 .board .recommend .product-list .product-box .product-txt {width: 296px; font-size: 0; float: right;}
+.section_1 .board .recommend .product-list .product-box .product-txt h3 {margin: 0; font-size: 28px; line-height: 30px; font-weight: 700; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; color: #333;}
+.section_1 .board .recommend .product-list .product-box .product-txt p {margin: 0; padding-top: 35px; font-size: 18px; line-height: 28px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;}
+.section_1 .board .recommend .product-list .slick-arrow {width: 14px; height: 10px; text-indent: -9999px; background: url(../images/sprites.png) no-repeat 0 -142px; position: absolute; bottom: -40px; z-index: 10;}
+.section_1 .board .recommend .product-list .slick-prev {background-position-x: -242px; left: 250px;}
+.section_1 .board .recommend .product-list .slick-next {background-position-x: right; right: 250px;}
