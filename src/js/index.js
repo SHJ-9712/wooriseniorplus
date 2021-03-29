@@ -15,6 +15,7 @@ $('.main-slider').slick({
     vertical: false,
     draggable: true,
 });
+
 // slick 금융서비스 추천 금융상품
 $('.product-list').slick({
     slide: '.product-box',
@@ -31,3 +32,11 @@ $('.product-list').slick({
     vertical: false,
     draggable: true,
 });
+
+// 관심정보 탭메뉴
+$('.section_2 .tab > li > .tab-list').hide();
+$('.section_2 .tab > li > button.active + .tab-list').show();
+$('.section_2 .tab > li > button').click(function(){
+    $('.section_2 .tab > li > button').removeClass('active').siblings('.tab-list').hide();
+    $(this).addClass('active').siblings('.tab-list').show();
+})
