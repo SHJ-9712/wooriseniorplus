@@ -120,3 +120,14 @@
 .section_4 .shortcuts .box:nth-of-type(2) .info > span {background-color: #122e80;}
 .section_4 .shortcuts .box:nth-of-type(3) .info strong > span {color: #288bcc;}
 .section_4 .shortcuts .box:nth-of-type(3) .info > span {background-color: #288bcc;}
+
+/* 일자리정보 */
+.section_5 {padding: 100px 0;}
+.section_5 .recruit {width: calc(100% - 348px); margin-right: 65px; float: left; position: relative; font-size: 0;}
+.section_5 .recruit .box {width: 270px; margin-right: 21px; border-top: 2px solid #288bcc; float: left;}
+.section_5 .recruit .box:last-of-type {margin-right: 0;}
+.section_5 .recruit .box img {margin: 34px auto; display: block;}
+.section_5 .recruit .box strong {font-size: 20px; color: #333;}
+.section_5 .recruit .box p {width: 100%; font-size: 16px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden;}
+.section_5 .recruit .box span {width: 36px; padding-top: 16px; display: block; font-size: 12px; color: #55b9fe; border-top: 1px solid #288bcc;}
+.section_5 .promote {margin-top: 60px; font-size: 0; box-sizing: border-box; float: right; border: 1px solid #e4e4e4;}

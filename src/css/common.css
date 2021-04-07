@@ -16,7 +16,7 @@
 .container .btn-wrap .btn-apply {float: right;}
 .container .btn-wrap .btn-apply:before {width: 19px; height: 19px;background-position-x: -252px; right: 80px;}
 .container .btn-more {padding: 0 22px; border: 1px solid #ccc; border-radius: 5px; position: absolute; right: 0; top: 0;}
-.container .btn-more > span {display: inline-block; padding-right: 15px; line-height: 38px;}
+.container .btn-more > span {display: inline-block; padding-right: 15px; font-size: 16px; line-height: 38px;}
 .container .btn-more > span:after {content: ''; width: 7px; height: 11px; background: url(../images/sprites.png) no-repeat -246px -155px; position: absolute; right: 20px; top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%);}
 
 /* 스킵네비게이션 */
