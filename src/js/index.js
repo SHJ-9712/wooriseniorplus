@@ -40,3 +40,11 @@ $('.section_2 .tab > li > button').click(function(){
     $('.section_2 .tab > li > button').removeClass('active').siblings('.tab-list').hide();
     $(this).addClass('active').siblings('.tab-list').show();
 })
+
+// happycall 약관보기 모달
+$('.happycall .check > .btn-policy').click(function(){
+    $('.policy').show();
+});
+$('.policy .overlay .modal .close').click(function(){
+    $('.policy').hide();
+});
