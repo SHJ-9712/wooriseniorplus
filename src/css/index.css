@@ -131,3 +131,29 @@
 .section_5 .recruit .box p {width: 100%; font-size: 16px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden;}
 .section_5 .recruit .box span {width: 36px; padding-top: 16px; display: block; font-size: 12px; color: #55b9fe; border-top: 1px solid #288bcc;}
 .section_5 .promote {margin-top: 60px; font-size: 0; box-sizing: border-box; float: right; border: 1px solid #e4e4e4;}
+
+/* 해피콜 */
+.happycall .container {padding: 40px; border: 1px solid #aec6f1; box-sizing: border-box;}
+.happycall h4 {display: inline-block; vertical-align: sub;}
+.happycall form .contact label {font-size: 17px; line-height: 50px; font-weight: 700; color: #333;}
+.happycall form .contact select,
+.happycall form .contact input,
+.happycall form .contact textarea {width: 107px; height: 50px; padding: 0 20px; line-height: 50px; font-size: 17px; color: #333; background-color: #fafafa; border: 1px solid #ddd; border-radius: 5px; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; transition: all 0.3s; box-sizing: border-box;}
+.happycall form .contact select:focus,
+.happycall form .contact input:focus,
+.happycall form .contact textarea:focus {background-color: #fff; outline: none; border: 1px solid #4873c2;}
+.happycall form .contact .phoneNum {float: left;}
+.happycall form .contact .inquiry-content {float: right;}
+.happycall form .contact .inquiry-content textarea {width: 452px; padding: 12px 20px; line-height: 22px; vertical-align: bottom; letter-spacing: -1px; resize: none;}
+.happycall form .contact .inquiry-content textarea::-webkit-input-placeholder {color: #a9a9a9;}
+.happycall form .contact .inquiry-content textarea::-moz-placeholder {color: #a9a9a9;}
+.happycall form .contact .inquiry-content textarea::-ms-input-placeholder {color: #a9a9a9;}
+.happycall form .contact .inquiry-content textarea::placeholder {color: #a9a9a9;}
+.happycall form .contact .inquiry-content button {width: 130px; height: 50px; text-align: center; background-color: #288bcc; border-radius: 5px;}
+.happycall form .contact .inquiry-content button > span {padding-right: 32px; display: inline-block; line-height: 50px; font-weight: 700; color: #fff; position: relative;}
+.happycall form .contact .inquiry-content button > span:after {content: ''; width: 28px; height: 14px; background: url(../images/sprites.png) no-repeat -217px -153px; position: absolute; right: 0; top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%);}
+.happycall form .check {margin-top: 25px; font-size: 0;}
+.happycall form .check label {margin-right: 20px; padding-left: 35px; font-size: 16px; line-height: 25px; color: #333; position: relative; cursor: pointer;}
+.happycall form .check label:before {content: ''; width: 29px; height: 25px; display: inline-block; background: url(../images/sprites.png) no-repeat -190px -44px; position: absolute; left: 0; top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%);}
+.happycall form .check input:checked + label:before {background-position-x: -242px;}
+.happycall form .check button[type="button"] {padding: 0; font-size: 14px; text-decoration: underline; color: #8b8b8b;}

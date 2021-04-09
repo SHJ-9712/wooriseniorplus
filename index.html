@@ -601,6 +601,43 @@
                 </div>
             </section>
             <!-- //일자리 정보 -->
+
+            <section class="happycall">
+                <div class="container">
+                    <h4><span style="color: #3f69b8">고객문의</span> 및 <span style="color: #8a76b4;">해피콜</span></h4>
+                    <span>(이 페이지에서 제공하는 내용에 대해 의견/문의를 남겨주시면 신속히 답변 드리겠습니다. <strong>해피콜 가능 시간 평일 10:00~17:00)</strong></span>
+                    <form action="#" method="POST">
+                        <div class="contact clearfix">
+                            <div class="phoneNum">
+                                <label for="happycall_tel">연락처</label>
+                                <select name="phone1" id="happycall_tel">
+                                    <option value="010">010</option>
+                                    <option value="011">011</option>
+                                    <option value="016">016</option>
+                                    <option value="017">017</option>
+                                    <option value="018">018</option>
+                                    <option value="019">019</option>
+                                </select>
+                                -
+                                <input type="text" name="phone2" maxlength="4" required>
+                                -
+                                <input type="text" name="phone3" maxlength="4" required>
+                            </div>
+                            <div class="inquiry-content">
+                                <label for="happycall_txt">문의내용</label>
+                                <textarea name="inquiry" id="happycall_txt" placeholder="간단한 의견 및 문의내용을 기입해주세요. (500자 이내)" required></textarea>
+                                <button type="button"><span>문의하기</span></button>
+                            </div>
+                        </div>
+                        <div class="check">
+                            <input type="checkbox" id="happycall_chk" class="blind">
+                            <label for="happycall_chk">개인정보 수집 및 이용에 동의합니다.</label>
+                            <button type="button">약관보기</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <!-- //해피콜 -->
         </div>
     </div>
     <script src="src/js/jquery-1.12.4.min.js"></script>
