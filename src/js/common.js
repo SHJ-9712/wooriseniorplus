@@ -10,3 +10,18 @@ $mainMenu.mouseleave(function(){
     $subMenu.stop().slideUp(300);
     $gnb.removeClass('layout');
 });
+
+// partners
+$('.partner-list').slick({
+    infinite: true,
+    slidesToShow: 6,
+    slidesToScroll: 1,
+    arrows: true,
+    dots: false,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    pauseOnHover: false,
+    pauseOnFocus: false,
+    vertical: false,
+    draggable: true,
+});
