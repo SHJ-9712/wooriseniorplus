@@ -75,6 +75,7 @@ header .gnb .member > li .search-btn {width: 26px; height: 27px; margin-left: 29
 
 /* footer */
 footer {padding: 60px 0; background-color: #f5f5f5;}
+footer .need-help {margin-bottom: 30px;}
 footer .need-help .f-logo {width: 130px; height: 32px; margin-top: 5px; display: inline-block; background: url(../images/sprites.png) no-repeat -142px 0; float: left;}
 footer .need-help > ul {font-size: 0; float: left;}
 footer .need-help > ul > li {margin-left: 30px; display: inline-block; font-size: 17px; line-height: 46px; color: #222; position: relative;}
@@ -87,3 +88,12 @@ footer .need-help .site-link button[type="button"].show span:after {top: 40%; tr
 footer .need-help .site-link > ul {width: 100%; max-height: 130px; display: none; background-color: #fff; border: 1px solid #c4c4c4; border-top: none; position: absolute; overflow-y: auto; box-sizing: border-box;}
 footer .need-help .site-link > ul > li:not(:first-of-type) {border-top: 1px solid #c4c4c4;}
 footer .need-help .site-link > ul > li > a {padding: 0 23px; line-height: 44px;}
+footer .f-info {padding-top: 30px; border-top: 1px solid #e4e4e4;}
+footer .f-info > span {display: block; line-height: 46px; color: #a0a0a0; float: left;}
+footer .f-info .sns {font-size: 0; float: right;}
+footer .f-info .sns > li {padding-left: 12px; display: inline-block;}
+footer .f-info .sns > li > a {width: 46px; height: 46px; background: url(../images/sprites.png) no-repeat 0 -70px;}
+footer .f-info .sns > li:nth-child(2) > a {background-position-x: -47px;}
+footer .f-info .sns > li:nth-child(3) > a {background-position-x: -94px;}
+footer .f-info .sns > li:nth-child(4) > a {background-position-x: -141px;}
+footer .f-info .sns > li > a > span {font-size: 16px;}
