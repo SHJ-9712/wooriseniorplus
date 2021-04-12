@@ -25,3 +25,11 @@ $('.partner-list').slick({
     vertical: false,
     draggable: true,
 });
+
+// footer 패밀리 사이트
+const $familySite = $('footer .need-help .site-link button[type="button"]');
+const $siteList = $('footer .need-help .site-link > ul');
+$familySite.click(function(){
+    $(this).toggleClass('show');
+    $($siteList).slideToggle();
+});
