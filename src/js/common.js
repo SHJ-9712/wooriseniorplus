@@ -11,6 +11,16 @@ $mainMenu.mouseleave(function(){
     $gnb.removeClass('layout');
 });
 
+// 검색창
+$('.search-btn').click(function(){
+    $('.search').stop().slideToggle();
+});
+$('.search').mouseleave(function(){
+    if($(window).width() > 1024) {
+        $('.search').stop().slideUp();
+    }
+});
+
 // partners
 $('.partner-list').slick({
     infinite: true,

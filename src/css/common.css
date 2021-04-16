@@ -63,6 +63,14 @@ header .gnb .member > li {line-height: 60px; float: left;}
 header .gnb .member > li:nth-child(2) {margin-left: 24px; position: relative;}
 header .gnb .member > li:nth-child(2):before {content: ''; width: 1px; height: 10px; background-color: #e3e3e3; position: absolute; left: -12px; top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%);}
 header .gnb .member > li .search-btn {width: 26px; height: 27px; margin-left: 29px; padding: 0; vertical-align: middle; background: url(../images/sprites.png) no-repeat -153px -124px;}
+/* 검색창 */
+header .search {width: 100%; display: none; background: -webkit-linear-gradient(left, #288bcc 0%, #165fa2 100%); background: -moz-linear-gradient(left, #288bcc 0%, #165fa2 100%); background: linear-gradient(to right, #288bcc 0%, #165fa2 100%); position: absolute; left: 0; top: 160px; z-index: -1;}
+header .search form {width: 50%; margin: 20px auto 50px; position: relative;}
+header .search form input[type="text"] {width: 100%; height: 80px; padding: 0 10px; font-size: 24px; line-height: 80px; letter-spacing: -0.05em; color: #fff; background: none; outline: none; border: none; border-bottom: 1px solid rgba(255, 255, 255, 0.4); box-sizing: border-box;}
+header .search form input[type="text"]::-webkit-input-placeholder {color: rgba(255, 255, 255, 0.6);}
+header .search form input[type="text"]::-moz-placeholder {color: rgba(255, 255, 255, 0.6);}
+header .search form input[type="text"]::-ms-input-placeholder {color: rgba(255, 255, 255, 0.6);}
+header .search form button[type="submit"] {width: 40px; height: 40px; background: url(../images/sprites.png) no-repeat -231px -261px; position: absolute; right: 10px; top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%);}
 
 /* partners */
 .partners {padding: 40px 0;}
