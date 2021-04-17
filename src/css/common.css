@@ -51,6 +51,7 @@ header .gnb.layout:after {visibility: visible; opacity: 1;}
 header .gnb .menu {float: left;}
 header .gnb .menu:after {content: ''; width: 100%; height: 1px; background-color: #ededed; position: absolute; left: 0; top: 59px;}
 header .gnb .menu > li {float: left;}
+header .gnb .menu > li.current > a {color: #288bcc;}
 header .gnb .menu > li > a {padding: 0 40px; color: #333; line-height: 60px; font-size: 22px; font-weight: 800; position: relative;}
 header .gnb .menu > li > a:hover {color: #288bcc;}
 header .gnb .menu > li:not(:first-child) > a:before {content: ''; width: 1px; height: 12px; background-color: #e3e3e3; position: absolute; left: 0; top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%);}
@@ -63,7 +64,7 @@ header .gnb .member > li {line-height: 60px; float: left;}
 header .gnb .member > li:nth-child(2) {margin-left: 24px; position: relative;}
 header .gnb .member > li:nth-child(2):before {content: ''; width: 1px; height: 10px; background-color: #e3e3e3; position: absolute; left: -12px; top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%);}
 header .gnb .member > li .search-btn {width: 26px; height: 27px; margin-left: 29px; padding: 0; vertical-align: middle; background: url(../images/sprites.png) no-repeat -153px -124px;}
-/* 검색창 */
+/* 검색창 form */
 header .search {width: 100%; display: none; background: -webkit-linear-gradient(left, #288bcc 0%, #165fa2 100%); background: -moz-linear-gradient(left, #288bcc 0%, #165fa2 100%); background: linear-gradient(to right, #288bcc 0%, #165fa2 100%); position: absolute; left: 0; top: 160px; z-index: -1;}
 header .search form {width: 50%; margin: 20px auto 50px; position: relative;}
 header .search form input[type="text"] {width: 100%; height: 80px; padding: 0 10px; font-size: 24px; line-height: 80px; letter-spacing: -0.05em; color: #fff; background: none; outline: none; border: none; border-bottom: 1px solid rgba(255, 255, 255, 0.4); box-sizing: border-box;}
@@ -71,6 +72,24 @@ header .search form input[type="text"]::-webkit-input-placeholder {color: rgba(2
 header .search form input[type="text"]::-moz-placeholder {color: rgba(255, 255, 255, 0.6);}
 header .search form input[type="text"]::-ms-input-placeholder {color: rgba(255, 255, 255, 0.6);}
 header .search form button[type="submit"] {width: 40px; height: 40px; background: url(../images/sprites.png) no-repeat -231px -261px; position: absolute; right: 10px; top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%);}
+
+/* sub header */
+.sub-header {padding-top: 160px;}
+.sub-header .container {border-bottom: 1px solid #ededed;}
+.sub-header .lnb {font-size: 0; float: left;}
+.sub-header .lnb > li {padding-right: 30px; display: inline-block; position: relative;}
+.sub-header .lnb > li:not(:first-of-type):before {content: ''; width: 1px; height: 16px; background-color: #e3e3e3; position: absolute; top: 50%; left: -15px; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%);}
+.sub-header .lnb > li.current {font-weight: 700; color: #288bcc;}
+.sub-header .lnb > li > a {font-size: 17px; line-height: 60px;}
+.sub-header .share {margin-top: 14px; float: right;}
+.sub-header .share > span {line-height: 32px; font-weight: 700; letter-spacing: -0.05em; float: left;}
+.sub-header .share .icon {font-size: 0; float: right;}
+.sub-header .share .icon > li {margin-left: 10px; display: inline-block;}
+.sub-header .share .icon > li > a {width: 32px; height: 32px; background: url(../images/sprites.png) no-repeat 0 -117px;}
+.sub-header .share .icon > li:nth-child(2) > a {background-position-x: -33px;}
+.sub-header .share .icon > li:nth-child(3) > a {background-position-x: -66px;}
+.sub-header .share .icon > li:nth-child(4) > a {background-position-x: -99px;}
+.sub-header .share .icon > li > a > span.blind {font-size: 16px;}
 
 /* partners */
 .partners {padding: 40px 0;}
