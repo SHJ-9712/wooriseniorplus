@@ -15,6 +15,7 @@
 .edu-wrap .board .edu-list > li .thumb .icon-box span {width: 42px; margin-right: 4px; display: inline-block; font-size: 14px; line-height: 32px; text-align: center; font-weight: 700; letter-spacing: -0.05em; color: #fff;}
 .edu-wrap .board .edu-list > li .thumb .icon-box .hot {background-color: #f30000;}
 .edu-wrap .board .edu-list > li .thumb .icon-box .new {background-color: #ffab33;}
+.edu-wrap .board .edu-list > li .thumb .icon-box .closed {background-color: #888;}
 .edu-wrap .board .edu-list > li .info-box {width: calc(100% - 400px); padding: 10px 40px 0 40px; display: table-cell; box-sizing: border-box;}
 .edu-wrap .board .edu-list > li .info-box .cate {font-size: 17px; line-height: 20px; font-weight: 700; color: #288bcc;}
 .edu-wrap .board .edu-list > li .info-box a {width: 95%; margin: 6px 0 20px; font-size: 26px; line-height: 36px; font-weight: 700; letter-spacing: -0.05em; color: #333; text-overflow: ellipsis; white-space: nowrap; overflow: hidden;}
@@ -29,6 +30,7 @@
 .edu-wrap .board .edu-list > li .btn-box .btn-like:hover {color: #288bcc; background-color: #f4f4f4;}
 .edu-wrap .board .edu-list > li .btn-box .btn-apply {color: #fff; background-color: #288bcc;}
 .edu-wrap .board .edu-list > li .btn-box .btn-apply:hover {background-color: #1c78b4;}
+.edu-wrap .board .edu-list > li .btn-box .disable {color: #a2a2a2; background-color: #eee; border: none; cursor: default;}
 .edu-wrap .board .pagination {padding: 40px 0; font-size: 0; text-align: center;}
 .edu-wrap .board .pagination .pageBtn {width: 40px; height: 40px; margin-right: 3px; display: inline-block; font-size: 17px; line-height: 40px; font-weight: 700; border-radius: 2px;}
 .edu-wrap .board .pagination .firstBtn {background: #fafafa url(../images/btn/btn_page_first.png) no-repeat center;}
