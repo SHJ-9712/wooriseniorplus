@@ -15,7 +15,7 @@
     <link rel="icon" href="../src/images/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../src/css/normalize.css">
     <link rel="stylesheet" href="../src/css/common.css">
-    <link rel="stylesheet" href="../src/css/education.css">
+    <link rel="stylesheet" href="../src/css/login.css">
     <link rel="stylesheet" href="../src/css/slick.css">
 </head>
 <body>
@@ -73,7 +73,7 @@
                                     <li><a href="#">사람</a></li>
                                 </ul>
                             </li>
-                            <li class="current">
+                            <li>
                                 <a href="../education/semina.html">교육/세미나</a>
                                 <ul class="lnb">
                                     <li><a href="#">동영상 특강</a></li>
@@ -92,7 +92,7 @@
                         </ul>
                     </nav>
                     <ul class="member">
-                        <li><a href="../member/login.html">로그인</a></li>
+                        <li><a href="login.html">로그인</a></li>
                         <li><a href="#">회원가입</a></li>
                         <li><button type="button" class="search-btn"><span class="blind">검색창 열기</span></button></li>
                     </ul>
@@ -110,124 +110,32 @@
         <!-- //header -->
 
         <div class="main">
-            <div class="sub-header">
-                <div class="container clearfix">
-                    <ul class="lnb">
-                        <li><a href="#">동영상 특강</a></li>
-                        <li><a href="#">시니어플러스 센터예약</a></li>
-                        <li class="current"><a href="./semina.html">세미나/특강 신청</a></li>
-                    </ul>
-                    <div class="share">
-                        <span>공유하기</span>
-                        <ul class="icon">
-                            <li><a href="#"><span class="blind">카카오톡 공유하기</span></a></li>
-                            <li><a href="#"><span class="blind">페이스북 공유하기</span></a></li>
-                            <li><a href="#"><span class="blind">트위터 공유하기</span></a></li>
-                            <li><a href="#"><span class="blind">URL 복사</span></a></li>
-                        </ul>
+            <div class="container">
+                <div class="member">
+                    <div class="login-wrap">
+                        <form action="#" method="POST">
+                            <h3 class="tit">일반로그인</h3>
+                            <div class="input-box">
+                                <label for="id_input" class="id-box">
+                                    <input type="text" name="email" id="id_input" placeholder="아이디(이메일)" required>
+                                </label>
+                                <label for="pw_input" class="pw-box">
+                                    <input type="password" name="passwd" id="pw_input" placeholder="비밀번호" required>
+                                </label>
+                            </div>
+                            <div class="input-box-btm clearfix">
+                                <div class="chk-box">
+                                    <input type="checkbox" name="save_id" id="save_id" class="blind">
+                                    <label for="save_id">아이디(이메일) 저장</label>
+                                </div>
+                                <a href="#" class="schIdPw">아이디(이메일)/비밀번호찾기</a>
+                                <button type="submit" class="login-btn">로그인</button>
+                            </div>
+                        </form>
                     </div>
+                    <!-- 로그인 폼 -->
                 </div>
             </div>
-            <!-- //sub header -->
-
-            <section class="edu-wrap">
-                <div class="container">
-                    <h2 class="page-tit">세미나 특강신청</h2>
-                    <ul class="tab">
-                        <li class="on"><a href="semina.html">진행중 세미나/특강</a></li>
-                        <li><a href="closed.html">종료된 세미나/특강</a></li>
-                    </ul>
-                    <div class="board">
-                        <ul class="edu-list">
-                            <li>
-                                <div class="thumb">
-                                    <a href="#">
-                                        <img src="../src/images/edu/0412730001571729451.png" alt="부동산 투자 최신 트랜드">
-                                    </a>
-                                    <div class="icon-box">
-                                        <span class="hot">HOT</span>
-                                        <span class="new">NEW</span>
-                                    </div>
-                                </div>
-                                <div class="info-box">
-                                    <span class="cate">특강</span>
-                                    <a href="#">우리자산관리학교 &lt;부동산&gt;특강(19-11-신촌)</a>
-                                    <ul>
-                                        <li>
-                                            <strong>기간</strong>
-                                            <span>2020-11-14 ~ 2020-11-14</span>
-                                        </li>
-                                        <li>
-                                            <strong>요일</strong>
-                                            <span>목요일</span>
-                                        </li>
-                                        <li>
-                                            <strong>시간</strong>
-                                            <span>14:00 ~ 16:00</span>
-                                        </li>
-                                        <li>
-                                            <strong>인원</strong>
-                                            <span>20</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="btn-box">
-                                    <a href="#" class="btn-like">관심추가</a>
-                                    <a href="#" class="btn-apply">신청하기</a>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="thumb">
-                                    <a href="#">
-                                        <img src="../src/images/edu/0422409001571186362.png" alt="와인보다 맛있는 와인이야기 세미나">
-                                    </a>
-                                    <div class="icon-box">
-                                        <span class="new">NEW</span>
-                                    </div>
-                                </div>
-                                <div class="info-box">
-                                    <span class="cate">세미나</span>
-                                    <a href="#">국가대표 1호 소믈리에와 함께 하는 '대화의 술'와인 이야기 - 강사:정무민</a>
-                                    <ul>
-                                        <li>
-                                            <strong>기간</strong>
-                                            <span>2020-11-21 ~ 2020-11-21</span>
-                                        </li>
-                                        <li>
-                                            <strong>요일</strong>
-                                            <span>목요일</span>
-                                        </li>
-                                        <li>
-                                            <strong>시간</strong>
-                                            <span>14:00 ~ 16:00</span>
-                                        </li>
-                                        <li>
-                                            <strong>인원</strong>
-                                            <span>20</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="btn-box">
-                                    <a href="#" class="btn-like">관심추가</a>
-                                    <a href="#" class="btn-apply">신청하기</a>
-                                </div>
-                            </li>
-                        </ul>
-                        <div class="pagination clearfix">
-                            <a href="#" class="pageBtn firstBtn"><span class="blind">첫 페이지</span></a>
-                            <a href="#" class="pageBtn prevBtn"><span class="blind">prev</span></a>
-                            <ul>
-                                <li class="pageBtn active"><a href="#">1</a></li>
-                                <li class="pageBtn"><a href="#">2</a></li>
-                                <li class="pageBtn"><a href="#">3</a></li>
-                            </ul>
-                            <a href="#" class="pageBtn nextBtn"><span class="blind">next</span></a>
-                            <a href="#" class="pageBtn lastBtn"><span class="blind">마지막 페이지</span></a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- //education -->
         </div>
 
         <section class="partners">
