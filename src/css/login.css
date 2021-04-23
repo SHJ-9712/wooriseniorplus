@@ -1,5 +1,6 @@
 @charset "utf-8";
 .main {padding-top: 160px;}
+/* 로그인 폼 */
 .member .login-wrap {padding-top: 80px; text-align: center;}
 .member .login-wrap form {width: 500px; margin: 0 auto;}
 .member .login-wrap form .tit {margin: 0 0 22px 0; font-size: 34px; line-height: 44px; font-weight: 700; letter-spacing: -0.05em; color: #333;}
@@ -15,3 +16,15 @@
 .member .login-wrap form .input-box-btm .schIdPw {line-height: 25px; letter-spacing: -0.05em; float: right;}
 .member .login-wrap form .input-box-btm .login-btn {width: 100%; margin-top: 24px; font-size: 20px; line-height: 64px; font-weight: 700; letter-spacing: -0.05em; color: #fff; background-color: #4873c2; border-radius: 5px;}
 .member .login-wrap form .input-box-btm .login-btn:hover {background-color: #345da9;}
+
+/* 회원가입 링크 박스 */
+.member .lead-join {width: 1000px; margin: 60px auto 0; padding: 50px 75px; border: 1px solid #c3c3c3; box-sizing: border-box;}
+.member .lead-join .left {width: 40%; float: left;}
+.member .lead-join .left strong {padding-bottom: 30px; font-size: 26px; line-height: 38px; color: #333; font-weight: 700; letter-spacing: -0.05em; position: relative;}
+.member .lead-join .left strong:after {content: ''; width: 30px; height: 2px; background-color: #288bcc; position: absolute; left: 0; bottom: 0;}
+.member .lead-join .right {width: 60%; float: right;}
+.member .lead-join .right p {margin: 0 0 25px 0; font-size: 18px; line-height: 30px; letter-spacing: -0.05em;}
+.member .lead-join .right p > span {color: #288bcc;}
+.member .lead-join .right a {padding: 0 29px 0 58px; display: inline-block; line-height: 46px; letter-spacing: -0.05em; font-weight: 700; color: #333; border: 1px solid #288bcc; border-radius: 24px; position: relative;}
+.member .lead-join .right a:before {content: ''; width: 22px; height: 22px; background: url(../images/sprites.png) no-repeat -249px -90px; position: absolute; left: 30px; top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%);}
+.member .lead-join .right a:hover {color: #288bcc;}
