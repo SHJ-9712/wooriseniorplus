@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* 나눔고딕 Regular 400 */
+@font-face {
+    font-family: 'NanumGothic';
+    src: url('../font/NanumGothicRegular.eot');
+    src: url('../font/NanumGothicRegular.eot?#iefix') format('embedded-opentype'),
+         url('../font/NanumGothic.svg#NanumGothic') format('svg'),
+         url('../font/NanumGothic.ttf') format('truetype'),
+         url('../font/NanumGothic.woff') format('woff'),
+         url('../font/NanumGothicRegular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+/* 나눔고딕 bold 700 */
+@font-face {
+    font-family: 'NanumGothic';
+    src: url('../font/NanumGothicBold.eot');
+    src: url('../font/NanumGothicBold.eot?#iefix') format('embedded-opentype'),
+         url('../font/NanumGothicBold.svg#NanumGothicBold') format('svg'),
+         url('../font/NanumGothicBold.ttf') format('truetype'),
+         url('../font/NanumGothicBold.woff') format('woff'),
+         url('../font/NanumGothicBold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+/* 나눔고딕 Extra-bold 800 */
+@font-face {
+    font-family: 'NanumGothic';
+    src: url('../font/NanumGothicExtraBold.eot');
+    src: url('../font/NanumGothicExtraBold.eot?#iefix') format('embedded-opentype'),
+         url('../font/NanumGothicExtraBold.svg#NanumGothicExtraBold') format('svg'),
+         url('../font/NanumGothicExtraBold.ttf') format('truetype'),
+         url('../font/NanumGothicExtraBold.woff') format('woff'),
+         url('../font/NanumGothicExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
