@@ -92,8 +92,8 @@
                         </ul>
                     </nav>
                     <ul class="member">
-                        <li><a href="login.html">로그인</a></li>
-                        <li><a href="#">회원가입</a></li>
+                        <li><a href="./login.html">로그인</a></li>
+                        <li><a href="./join.html">회원가입</a></li>
                         <li><button type="button" class="search-btn"><span class="blind">검색창 열기</span></button></li>
                     </ul>
                 </div>
@@ -108,6 +108,122 @@
             </div>
         </header>
         <!-- //header -->
+
+        <div class="main">
+            <div class="container">
+                <div class="join-wrap">
+                    <h2 class="tit">회원가입</h2>
+                    <div class="board">
+                        <ul class="join-step">
+                            <li class="step01">
+                                <span>STEP.01</span>
+                                <strong>약관동의</strong>
+                            </li>
+                            <li class="step02 current">
+                                <span>STEP.02</span>
+                                <strong>정보입력</strong>
+                            </li>
+                            <li class="step03">
+                                <span>STEP.03</span>
+                                <strong>가입완료</strong>
+                            </li>
+                        </ul>
+                        <form action="#" method="POST" id="joinForm">
+                            <table class="table-step02">
+                                <tbody>
+                                    <tr>
+                                        <th><label for="txt_1">이메일</label></th>
+                                        <td>
+                                            <div class="id-box">
+                                                <input type="text" name="email" id="txt_1" required>
+                                                <a href="#" id="emailvalidate" class="id-check">중복확인</a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th><label for="txt_2">비밀번호</label></th>
+                                        <td>
+                                            <input type="password" name="passwd" id="txt_2" required>
+                                            <span class="imp-txt">※ 8자이상 영문 대 소문자, 숫자, 특수문자를 사용하세요.</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th><label for="txt_3">비밀번호 확인</label></th>
+                                        <td>
+                                            <input type="password" name="passwd_confirm" id="txt_3" required>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th><label for="txt_4">이름</label></th>
+                                        <td>
+                                            <input type="text" name="name" id="txt_4" required>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>성별</th>
+                                        <td>
+                                            <div class="radio-box">
+                                                <div class="radio">
+                                                    <input type="radio" name="gender" id="gm" value="m" checked>
+                                                    <label for="gm">남</label>
+                                                </div>
+                                                <div class="radio">
+                                                    <input type="radio" name="gender" id="gw" value="f">
+                                                    <label for="gw">여</label>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th><label for="txt_5">생년월일</label></th>
+                                        <td>
+                                            <input type="text" name="birth" id="txt_5" placeholder="예)20210426" maxlength="8" required>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th><label for="txt_6">휴대전화</label></th>
+                                        <td>
+                                            <div class="phone-box">
+                                                <select name="tell" id="txt_6">
+                                                    <option value="010">010</option>
+                                                    <option value="011">011</option>
+                                                    <option value="016">016</option>
+                                                    <option value="017">017</option>
+                                                    <option value="018">018</option>
+                                                    <option value="019">019</option>
+                                                </select>
+                                                <span>-</span>
+                                                <input type="text" name="tel2" maxlength="4">
+                                                <span>-</span>
+                                                <input type="text" name="tel3" maxlength="4">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>뉴스레터 신청</th>
+                                        <td>
+                                            <div class="radio-box">
+                                                <div class="radio">
+                                                    <input type="radio" name="mailing" id="news_y" value="y" checked>
+                                                    <label for="news_y">예</label>
+                                                </div>
+                                                <div class="radio">
+                                                    <input type="radio" name="mailing" id="news_n" value="n">
+                                                    <label for="news_n">아니오</label>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </form>
+                        <div class="btm-btn-list">
+                            <a href="#">가입하기</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <section class="partners">
             <div class="container">
